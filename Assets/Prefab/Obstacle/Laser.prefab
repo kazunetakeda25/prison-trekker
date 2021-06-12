@@ -1,0 +1,1007 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!54 &5873041681899114141
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041681899145278}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &5873041682217250533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5873041682217250530}
+  m_Layer: 0
+  m_Name: Laser
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5873041682217250530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041682217250533}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5873041681899508766}
+  - {fileID: 5873041682580282526}
+  - {fileID: 5873041682972419843}
+  - {fileID: 5873041683080030822}
+  - {fileID: 5873041683091985508}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &5873041682580407837
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041682580439230}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &5873041682972419842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5873041682972419843}
+  - component: {fileID: 5873041682972419852}
+  - component: {fileID: 5873041682972419855}
+  - component: {fileID: 5873041682972419854}
+  - component: {fileID: 5873041682972419841}
+  - component: {fileID: 5873041682972419840}
+  m_Layer: 2
+  m_Name: Cylinder
+  m_TagString: Obstacle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5873041682972419843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041682972419842}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.331, y: 1.14, z: -0.778}
+  m_LocalScale: {x: 0.02928102, y: 0.8932378, z: 0.029281005}
+  m_Children: []
+  m_Father: {fileID: 5873041682217250530}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!33 &5873041682972419852
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041682972419842}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &5873041682972419855
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041682972419842}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0040a36a54618924ba433b9239c9375a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!136 &5873041682972419854
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041682972419842}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!54 &5873041682972419841
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041682972419842}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &5873041682972419840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041682972419842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd15fdb137038c94192db29016a9d2f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitForTransitionIn: 1
+  AutoRun: 1
+  RepeatWhenEnabled: 0
+  TransitionInConfig:
+    AutoRun: 0
+    TransitionChildren: 0
+    MustTriggerDirect: 0
+    Delay: 1
+    Duration: 0.5
+    TimeUpdateMethod: 0
+    TransitionType: 23
+    AnimationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    LoopMode: 0
+    OnTransitionStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: BeautifulTransitions.Scripts.Transitions.Components.TransitionBase+TransitionStepEvent,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    OnTransitionUpdate:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: BeautifulTransitions.Scripts.Transitions.Components.TransitionBase+TransitionStepEvent,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    OnTransitionComplete:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5873041682972419840}
+          m_MethodName: TransitionOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: BeautifulTransitions.Scripts.Transitions.Components.TransitionBase+TransitionStepEvent,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  TransitionOutConfig:
+    AutoRun: 0
+    TransitionChildren: 0
+    MustTriggerDirect: 0
+    Delay: 1
+    Duration: 0.5
+    TimeUpdateMethod: 0
+    TransitionType: 23
+    AnimationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    LoopMode: 0
+    OnTransitionStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: BeautifulTransitions.Scripts.Transitions.Components.TransitionBase+TransitionStepEvent,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    OnTransitionUpdate:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: BeautifulTransitions.Scripts.Transitions.Components.TransitionBase+TransitionStepEvent,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    OnTransitionComplete:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5873041682972419840}
+          m_MethodName: TransitionIn
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: BeautifulTransitions.Scripts.Transitions.Components.TransitionBase+TransitionStepEvent,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Target: {fileID: 0}
+  InConfig:
+    StartScale: {x: 0, y: 0, z: 0}
+  OutConfig:
+    EndScale: {x: 0, y: 0, z: 0}
+--- !u!1 &5873041683080030841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5873041683080030822}
+  - component: {fileID: 5873041683080030819}
+  - component: {fileID: 5873041683080030818}
+  - component: {fileID: 5873041683080030821}
+  - component: {fileID: 5873041683080030820}
+  - component: {fileID: 5873041683080030823}
+  m_Layer: 2
+  m_Name: Cylinder (1)
+  m_TagString: Obstacle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5873041683080030822
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041683080030841}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.331, y: 0.773, z: -0.778}
+  m_LocalScale: {x: 0.02928102, y: 0.8932378, z: 0.029281005}
+  m_Children: []
+  m_Father: {fileID: 5873041682217250530}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!33 &5873041683080030819
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041683080030841}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &5873041683080030818
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041683080030841}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0040a36a54618924ba433b9239c9375a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!136 &5873041683080030821
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041683080030841}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!54 &5873041683080030820
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041683080030841}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &5873041683080030823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041683080030841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd15fdb137038c94192db29016a9d2f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitForTransitionIn: 1
+  AutoRun: 1
+  RepeatWhenEnabled: 0
+  TransitionInConfig:
+    AutoRun: 0
+    TransitionChildren: 0
+    MustTriggerDirect: 0
+    Delay: 1
+    Duration: 0.5
+    TimeUpdateMethod: 0
+    TransitionType: 23
+    AnimationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    LoopMode: 0
+    OnTransitionStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: BeautifulTransitions.Scripts.Transitions.Components.TransitionBase+TransitionStepEvent,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    OnTransitionUpdate:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: BeautifulTransitions.Scripts.Transitions.Components.TransitionBase+TransitionStepEvent,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    OnTransitionComplete:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5873041683080030823}
+          m_MethodName: TransitionOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: BeautifulTransitions.Scripts.Transitions.Components.TransitionBase+TransitionStepEvent,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  TransitionOutConfig:
+    AutoRun: 0
+    TransitionChildren: 0
+    MustTriggerDirect: 0
+    Delay: 1
+    Duration: 0.5
+    TimeUpdateMethod: 0
+    TransitionType: 23
+    AnimationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    LoopMode: 0
+    OnTransitionStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: BeautifulTransitions.Scripts.Transitions.Components.TransitionBase+TransitionStepEvent,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    OnTransitionUpdate:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: BeautifulTransitions.Scripts.Transitions.Components.TransitionBase+TransitionStepEvent,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    OnTransitionComplete:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5873041683080030823}
+          m_MethodName: TransitionIn
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: BeautifulTransitions.Scripts.Transitions.Components.TransitionBase+TransitionStepEvent,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Target: {fileID: 0}
+  InConfig:
+    StartScale: {x: 0, y: 0, z: 0}
+  OutConfig:
+    EndScale: {x: 0, y: 0, z: 0}
+--- !u!1 &5873041683091985511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5873041683091985508}
+  - component: {fileID: 5873041683091985505}
+  - component: {fileID: 5873041683091985504}
+  - component: {fileID: 5873041683091985507}
+  - component: {fileID: 5873041683091985506}
+  - component: {fileID: 5873041683091985509}
+  m_Layer: 2
+  m_Name: Cylinder (2)
+  m_TagString: Obstacle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5873041683091985508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041683091985511}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.331, y: 0.439, z: -0.778}
+  m_LocalScale: {x: 0.02928102, y: 0.8932378, z: 0.029281005}
+  m_Children: []
+  m_Father: {fileID: 5873041682217250530}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!33 &5873041683091985505
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041683091985511}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &5873041683091985504
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041683091985511}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0040a36a54618924ba433b9239c9375a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!136 &5873041683091985507
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041683091985511}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!54 &5873041683091985506
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041683091985511}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &5873041683091985509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873041683091985511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd15fdb137038c94192db29016a9d2f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitForTransitionIn: 1
+  AutoRun: 1
+  RepeatWhenEnabled: 0
+  TransitionInConfig:
+    AutoRun: 0
+    TransitionChildren: 0
+    MustTriggerDirect: 0
+    Delay: 1
+    Duration: 0.5
+    TimeUpdateMethod: 0
+    TransitionType: 23
+    AnimationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    LoopMode: 0
+    OnTransitionStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: BeautifulTransitions.Scripts.Transitions.Components.TransitionBase+TransitionStepEvent,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    OnTransitionUpdate:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: BeautifulTransitions.Scripts.Transitions.Components.TransitionBase+TransitionStepEvent,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    OnTransitionComplete:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5873041683091985509}
+          m_MethodName: TransitionOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: BeautifulTransitions.Scripts.Transitions.Components.TransitionBase+TransitionStepEvent,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  TransitionOutConfig:
+    AutoRun: 0
+    TransitionChildren: 0
+    MustTriggerDirect: 0
+    Delay: 1
+    Duration: 0.5
+    TimeUpdateMethod: 0
+    TransitionType: 23
+    AnimationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    LoopMode: 0
+    OnTransitionStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: BeautifulTransitions.Scripts.Transitions.Components.TransitionBase+TransitionStepEvent,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    OnTransitionUpdate:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: BeautifulTransitions.Scripts.Transitions.Components.TransitionBase+TransitionStepEvent,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    OnTransitionComplete:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5873041683091985509}
+          m_MethodName: TransitionIn
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: BeautifulTransitions.Scripts.Transitions.Components.TransitionBase+TransitionStepEvent,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Target: {fileID: 0}
+  InConfig:
+    StartScale: {x: 0, y: 0, z: 0}
+  OutConfig:
+    EndScale: {x: 0, y: 0, z: 0}
+--- !u!1001 &5873041681899114142
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5873041682217250530}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_Name
+      value: Laser
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.261
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.842
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.813
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.22198041
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.22198041
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.22198041
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1eeec7adae7457c46a68039f20f253a8, type: 2}
+    - target: {fileID: 2300000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02c3c1d9ab6630d43bacd23a4a5c06c2, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+--- !u!1 &5873041681899145278 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 8a3cbc201c6447a499382b7f770e6361,
+    type: 3}
+  m_PrefabInstance: {fileID: 5873041681899114142}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5873041681899508766 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361,
+    type: 3}
+  m_PrefabInstance: {fileID: 5873041681899114142}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5873041682580407838
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5873041682217250530}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_Name
+      value: Laser (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.552
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.842
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.813
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.22198041
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.22198041
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.22198041
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1eeec7adae7457c46a68039f20f253a8, type: 2}
+    - target: {fileID: 2300000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02c3c1d9ab6630d43bacd23a4a5c06c2, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8a3cbc201c6447a499382b7f770e6361, type: 3}
+--- !u!1 &5873041682580439230 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 8a3cbc201c6447a499382b7f770e6361,
+    type: 3}
+  m_PrefabInstance: {fileID: 5873041682580407838}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5873041682580282526 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 8a3cbc201c6447a499382b7f770e6361,
+    type: 3}
+  m_PrefabInstance: {fileID: 5873041682580407838}
+  m_PrefabAsset: {fileID: 0}

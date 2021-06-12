@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.hats.pirsonescape">
+    <application>
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="TZp7RLJvLtJ_LBDK4T1vXG5n2Gl73EkcoWkEt17CuQBEcPTgtaZPseAuwv_z7kZwFI86KGIDgURIv_znaWAQAK" />
+    </application>
+</manifest>

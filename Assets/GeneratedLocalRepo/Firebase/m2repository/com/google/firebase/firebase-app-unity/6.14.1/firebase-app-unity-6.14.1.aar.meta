@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: 55649242585f25a4886136fd41619401
+labels:
+- gpsr
+- gvh
+- gvh_version-6.14.1
+- gvhp_exportpath-Firebase/m2repository/com/google/firebase/firebase-app-unity/6.14.1/firebase-app-unity-6.14.1.srcaar
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  iconMap: {}
+  executionOrder: {}
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+  platformData:
+  - first:
+      Android: Android
+    second:
+      enabled: 0
+      settings: {}
+  - first:
+      Any: 
+    second:
+      enabled: 0
+      settings: {}
+  - first:
+      Editor: Editor
+    second:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

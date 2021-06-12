@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee001c9e6d47a614db4b82e1b2199ebe, type: 3}
+  m_Name: Example Settings 2
+  m_EditorClassIdentifier: 
+  bloomExpanded: 1
+  bloomEnabled: 0
+  bloomThreshold: 0.209
+  bloomIntensity: 0
+  bloomTint: {r: 1, g: 1, b: 1, a: 1}
+  preserveAspectRatio: 1
+  bloomPasses: 5
+  bloomTextureWidth: 98
+  bloomTextureHeight: 107
+  bloomLumaCalculationType: 0
+  bloomLumaVector: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+  colorizeExpanded: 1
+  colorizeEnabled: 0
+  colorize:
+    serializedVersion: 2
+    rgba: 16777215
+  vignetteExpanded: 1
+  vignetteEnabled: 1
+  vignetteBeginRadius: 0.781
+  vignetteExpandRadius: 1.54
+  vignetteColor: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 1}
+  brightnessContrastExpanded: 1
+  brightnessContrastEnabled: 0
+  contrast: 0.216
+  brightness: 0.137
